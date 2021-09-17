@@ -1,0 +1,39 @@
+.container{
+	position: relative;
+	display: grid;
+	grid-template-columns: 63% 37%;
+	width:60%;
+	height: 100%;
+	margin: auto;
+}
+
+.divRight{
+	margin: auto;
+	height: 80%;
+	width:60%;
+}
+
+#decoImg{
+}
+
+button{
+	display: block;
+	padding:10px;
+	margin-top:8%;
+	margin-bottom:8%;
+	background-color: white;
+	font-variant: all-small-caps;
+	font-size: 20px;
+}
+
+.imagesDiv{
+	position: relative;
+}
+
+.images{
+	position: absolute;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+}
