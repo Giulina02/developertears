@@ -10,7 +10,7 @@ img {
   display: block;
   margin: auto;
   flex: center;
-  opacity: 0.5;
+  opacity: 0;
   margin-top: 60px;
 
   animation-name: shrink;

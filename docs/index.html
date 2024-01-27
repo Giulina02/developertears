@@ -10,8 +10,29 @@
 <body>
   <img id="ratdancing" src="images/dancing-rat.gif" width="500px">
 
-  <audio controls onplay="startDancing()">
+  <audio controls onplay="startDancing()" id="audio">
     <source src="Pa Romper La Discoteca.mp3" type="audio/mpeg">
   </audio>
+
+  <script>
+    let image = document.getElementById("ratdancing");
+    
+    let opacity = 0;
+
+    let audio = document.getElementById("audio");
+
+    function startDancing(){
+      
+      if (opacity === 0){
+        for (let i = 0 ; i <= 4 ; i++){
+          setTimeout(() => {
+            opacity = opacity + 0.1;
+            console.log(opacity);
+            image.style.opacity = opacity;
+          }, 1000);
+        }
+      }
+    }
+  </script>
 </body>
 </html>
