@@ -1,7 +1,6 @@
 body{
   height: 90vh;
 
-  animation-name: colorChange;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
 }
