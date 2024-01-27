@@ -8,11 +8,13 @@
   <link rel="icon" type="image/jpg" href="images/icon.gif">
 </head>
 <body>
-  <img id="ratdancing" src="images/dancing-rat.gif" width="500px">
+  <div>
+    <img id="ratdancing" src="images/dancing-rat.gif">
 
-  <audio controls onplay="startDancing()" id="audio">
-    <source src="Pa Romper La Discoteca.mp3" type="audio/mpeg">
-  </audio>
+    <audio controls onplay="startDancing()" id="audio">
+      <source src="Pa Romper La Discoteca.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
   <script>
     let image = document.getElementById("ratdancing");

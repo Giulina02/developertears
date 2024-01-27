@@ -1,17 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
-  height: 90vh;
   background-color: black;
+  text-align: center;
+  height: 90vh;
 
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
+  overflow: hidden;
+}
+
+div {
+  display: inline-block;
+  height: 100%;
 }
 
 img {
   display: block;
-  margin: auto;
-  flex: center;
   opacity: 0;
-  margin-top: 60px;
+  margin: auto;
+  height: 80%;
 
   animation-name: shrink;
   animation-duration: 0.4s;
